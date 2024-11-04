@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e223f0e9e4eb346949ed091c28e4a9, type: 3}
+  m_Name: Biss
+  m_EditorClassIdentifier: 
+  name: "\u5632\u8BBD"
+  description: "\u7F9E\u8FB1\u6280\u80FD\uFF0C\u72E0\u72E0\u7684\u6279\u5224\u5BF9\u65B9,\u5168\u9762\u524A\u5F31\u5BF9\u624B"
+  type: 4
+  power: 0
+  accuracy: 100
+  pp: 20
+  category: 2
+  effects:
+    boosts:
+    - stat: 1
+      boost: -2
+    - stat: 0
+      boost: -2
+    status: 0
+  target: 0

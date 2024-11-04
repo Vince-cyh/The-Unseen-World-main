@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e223f0e9e4eb346949ed091c28e4a9, type: 3}
+  m_Name: Defend
+  m_EditorClassIdentifier: 
+  name: "\u987D\u5F3A"
+  description: "\u589E\u52A0\u9632\u5FA1\u529B\u6216\u62B5\u6D88\u4E00\u6B21\u653B\u51FB"
+  type: 0
+  power: 0
+  accuracy: 100
+  pp: 20
+  category: 2
+  effects:
+    boosts:
+    - stat: 1
+      boost: 2
+    - stat: 3
+      boost: 2
+    status: 0
+  target: 1

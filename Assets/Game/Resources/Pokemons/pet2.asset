@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21cbe498cb1ba94aab0ad18c81605bd, type: 3}
+  m_Name: pet2
+  m_EditorClassIdentifier: 
+  name: "\u7279\u653B\u624B"
+  description: "\u66FC\u6CE2"
+  frontSprite: {fileID: 21300000, guid: d293b0317beb7814ba9db0055cef03a6, type: 3}
+  backSprite: {fileID: 21300000, guid: 15fcbc242fe0bba4ea8e44562c47d02a, type: 3}
+  type1: 7
+  type2: 0
+  maxHp: 99
+  attack: 100
+  defense: 99
+  spAttack: 9
+  spDefense: 60
+  speed: 99
+  expYield: 79
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 555b612c4e92f0d4fb9d5b476f7e4836, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 40921bad989324b48936f9fd20a1417d, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e119548a60993aa46b420c9084a4f59c, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0c1d1cc09461b61479dbf7a71b9f6ea4, type: 2}
+    level: 1
